@@ -32,3 +32,12 @@ def valor_absoluto(a):
     return abs(a)
 
 print("Valor absoluto de -15 =", valor_absoluto(-15))
+
+import math
+
+def raiz_quadrada(a):
+    if a < 0:
+        return "Erro: número negativo!"
+    return math.sqrt(a)
+
+print("Raiz quadrada de 25 =", raiz_quadrada(25))

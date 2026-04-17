@@ -22,3 +22,8 @@ def potencia(base, expoente):
     return base ** expoente
 
 print("Potência 2^10 =", potencia(2, 10))
+
+def resto_divisao(a, b):
+    return a % b
+
+print("Resto de 10/3 =", resto_divisao(10, 3))

@@ -27,3 +27,8 @@ def resto_divisao(a, b):
     return a % b
 
 print("Resto de 10/3 =", resto_divisao(10, 3))
+
+def valor_absoluto(a):
+    return abs(a)
+
+print("Valor absoluto de -15 =", valor_absoluto(-15))

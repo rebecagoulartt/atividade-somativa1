@@ -13,5 +13,5 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -X POST \
-          -d "{\"content\": \"Novo commit em ${{ github.repository }} por ${{ github.actor }}\"}" \
+          -d "{\"content\": \"Novo commit realizado\nAutor: ${{ github.actor }}\nRepositorio: ${{ github.repository }}\nBranch: ${{ github.ref_name }}\nMensagem: ${{ github.event.head_commit.message }}\"}" \
           ${{ secrets.DISCORD_WEBHOOK }}

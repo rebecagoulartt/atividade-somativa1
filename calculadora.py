@@ -13,7 +13,7 @@ def divisao(a, b):
     return a / b
 
 print("=== Calculadora ===")
-print("Soma 2+3 =", soma(2, 3))
+print("Soma 2+3 =", soma(2, 3))git add calculadora.py
 print("Subtração 10-4 =", subtracao(10, 4))
 print("Multiplicação 3x5 =", multiplicacao(3, 5))
 print("Divisão 10/2 =", divisao(10, 2))
@@ -41,3 +41,4 @@ def raiz_quadrada(a):
     return math.sqrt(a)
 
 print("Raiz quadrada de 25 =", raiz_quadrada(25))
+
